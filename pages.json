@@ -1,0 +1,193 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "二手商城",
+				"navigationBarBackgroundColor":"#007AFF"
+			}
+		}
+	    ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#007AFF"
+            }
+            
+        },
+		{
+		    "path" : "pages/connet/connet",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "消息",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#007AFF"
+		    }
+		    
+		}
+	
+		
+        ,{
+            "path" : "pages/lunch/lunch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的发布",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#007AFF"
+            }
+            
+        }
+      
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,
+		{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/lunchlist/lunchList",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我发布的",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/collection/collection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/gister/gister",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/unlogin/unlogin",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "未登录",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+       
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+	
+		{
+		    "path" : "pages/chat/chat",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "客服中心",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/serach/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ziliao/ziliao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor":"#007AFF",
+		"navigationStyle":"custom"
+	},
+	"tabBar": {
+		"selectedColor": "#3a86b9",
+		"color": "#b8b8b8",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icons/home1.png",
+				"selectedIconPath": "/static/icons/home2.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "/static/icons/fenlei1.png",
+				"selectedIconPath": "/static/icons/fenlei2.png"
+			},
+			{
+				"pagePath": "pages/lunch/lunch",
+				"text": "发布",
+				"iconPath": "/static/icons/lunch1.png",
+				"selectedIconPath": "/static/icons/lunch2.png"
+			},
+			{
+				"pagePath": "pages/serach/search",
+				"text": "搜索",
+				"iconPath": "/static/icons/search.png",
+				"selectedIconPath": "/static/sousuo(2).png"
+			},
+			
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "/static/icons/user1.png",
+				"selectedIconPath": "/static/icons/user2.png"
+			}
+		]
+	}
+}

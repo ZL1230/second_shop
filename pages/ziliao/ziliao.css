@@ -1,0 +1,122 @@
+.user{
+	height: 170rpx;
+	display: flex;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+	margin-top: 85rpx;
+}
+.user image{
+	height: 180rpx;
+	width: 180rpx;
+	border-radius: 90rpx;
+	
+}
+.user .text{
+	height: 180rpx;
+	flex: 1;
+	margin-left: 30rpx;
+}
+.user .text .count{
+	display: flex;
+	height:110rpx;
+	justify-content: space-around;
+}
+.user .text .count_text{
+	padding-top: 10rpx;
+	text-align: center;
+	width: 120rpx;
+	height: 110rpx;
+}
+.user .text .count_text .num{
+	font-weight: 600;
+}
+.user .text .count_text .text2{
+	font-size: 28rpx;
+}
+.user .text .connet{
+	background-color: #4FBCFF;
+	height: 70rpx;
+	width: 90%;
+	margin-left: 5%;
+	border-radius: 35rpx;
+	text-align: center;
+	line-height: 70rpx;
+	font-size: 32rpx;
+	font-weight: 600;
+}
+.recommend {
+	margin: 20rpx;
+	padding-bottom: 50rpx;
+	/* background-color: #ececec; */
+	border-bottom: 1rpx #ececec solid;
+}
+.recommend .recommend_name,.recommend_data{
+
+	position: relative;
+}
+.recommend .name{
+	width: 50rpx;
+	font-size: 40rpx;
+	font-weight: 600;
+}
+.recommend .xiaoqu{
+	position: absolute;
+	right: 20rpx;
+	color: #808080;
+	
+}
+.recommend_data{
+	margin-top: 10rpx;
+	font-size: 30rpx;
+}
+.recommend_data .weixin{
+	position: absolute;
+	top: 50rpx;
+	right: 20rpx;
+}
+	
+.recommend_text{
+	margin-top: 20rpx;
+	font-size: 30rpx;
+}
+.goods{
+	margin: 3vw;
+}
+
+.goods .title{
+	font-size: 35rpx;
+	color: #4FBCFF;
+	border-radius: 20rpx;
+}
+.goods .goods-list{
+	display: inline-block;
+	height: 500rpx;
+	width: 40vw;
+	background-color: #4CD964;
+	margin: 2vw;
+}
+.xiaoqu{
+	
+}
+.huiyuan {
+	font-weight: 600;
+	font-size: 50px;
+	font-family: "仿宋";
+	color: #8c888b;
+	background: -webkit-linear-gradient(45deg, #ffff7f, #ff007f, #55ff00, #bfb5dd, #2c79f5);
+	color: transparent;
+	/*设置字体颜色透明*/
+	-webkit-background-clip: text;
+	/*背景裁剪为文本形式*/
+	animation: ran 10s linear infinite;
+	/*动态10s展示*/
+}
+@keyframes ran {
+	from {
+		backgroud-position: 0 0;
+	}
+
+	to {
+		background-position: 2000px 0;
+	}
+}

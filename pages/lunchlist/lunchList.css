@@ -1,0 +1,256 @@
+
+
+.content{
+	position: relative;
+}
+#navigation{
+	position: relative;
+	display: flex;
+	width: 100vw;
+	
+}
+#navigation view{
+	/* background-color: #ff5500; */
+	
+	font-size: 35rpx;
+}
+#navigation #xiajiapop{
+	width: 240rpx;
+	/* background-color: #999999; */
+}
+#navigation .fanhui {
+	margin-top: 20rpx;
+	margin-left: 20rpx;
+	width: 40rpx;
+	height: 40rpx;
+	/* background: url(false.png) no-repeat left top; */
+	background-size: 40rpx auto;
+}
+#navigation .fabu{
+	/* background-color: #0AB906; */
+	font-weight: 500;
+	font-size: 35rpx;
+	padding-top:15rpx;
+}
+#navigation .xiajia{
+	position: absolute;
+	right: 50px;
+	top: 0;
+	/* background-color: #55aaff; */
+	padding-top: 25rpx;
+	padding-left: 15vw;
+	
+	font-size: 30rpx;
+}
+.top {
+	display: flex;
+	width: 100%;
+}
+
+#downitem{
+	
+}
+
+.top .zhanwei {
+	width: 250rpx;
+}
+
+.main{
+	top: 80rpx;
+	position: absolute;
+}
+
+.confirm .shanchu{
+	height: 60rpx;
+	width: 40rpx;
+	margin-left: 40rpx;
+	top: 10rpx;
+}
+.confirm .fenxiang{
+	height: 60rpx;
+	width: 40rpx;
+	margin-left: 20rpx;
+	top: 10rpx;
+	/* background-color: red; */
+}
+.item {
+	height: 250rpx;
+	margin-bottom: 15rpx;
+	padding: 10rpx;
+	border: 1rpx;
+	width: 100vw;
+	position: relative;
+	background-color: white;
+}
+
+.item image {
+	height: 160rpx;
+	width: 160rpx;
+	margin: 5rpx;
+	border-radius: 20rpx;
+	border: 1rpx;
+	position: relative;
+	background-color: #0AB906;
+	
+}
+
+.item .text {
+	margin-left: 30rpx;
+	display: inline-block;
+	width: 65vw;
+	height: 160rpx;
+	position: absolute;
+	
+}
+
+.item .text .collection {
+	font-size: 24rpx;
+	margin-bottom: 5rpx;
+	color: #999999;
+}
+
+.item .text .title {
+	
+	font-size: 31rpx;
+	font-weight: 500;
+	display: -webkit-box;
+	       -webkit-box-orient: vertical;
+	       -webkit-line-clamp: 2;
+	       overflow: hidden;
+}
+
+.item .text .price {
+	margin-bottom: 20rpx;
+	color: #ff557f;
+}
+.guanli {
+	display: flex;
+	width: 95vw;
+	height: 50rpx;
+}
+.guanli .zhanwei{
+	flex: 1;
+}
+.guanli .editprice{
+	width: 90rpx;
+	display: inline-block;
+	border: 1rpx solid rgb(202, 202, 202);
+	height: 60rpx;
+	font-size: 25rpx;
+	line-height: 60rpx;
+	border-radius: 30rpx;
+	margin-left: 10rpx;
+	padding-left: 20rpx;
+}
+.guanli .edit{
+	border: 1rpx solid rgb(202, 202, 202);
+	width: 90rpx;
+
+	height: 60rpx;
+	font-size: 25rpx;
+	line-height: 60rpx;
+	border-radius: 30rpx;
+
+	display: inline-block;
+	margin-left: 10rpx;
+	padding-left: 32rpx;
+}
+.guanli .xiajia{
+	border: 1rpx solid rgb(202, 202, 202);
+	height: 60rpx;
+	font-size: 25rpx;
+	line-height: 60rpx;
+	border-radius: 30rpx;
+	display: inline-block;
+	margin-left: 10rpx;
+	padding-left: 32rpx;
+	width: 90rpx;
+}
+.guanli .delete{
+	border: 1rpx solid rgb(255, 85, 0);
+	color: rgb(255, 85, 0);
+	height: 60rpx;
+	font-size: 25rpx;
+	line-height: 60rpx;
+	border-radius: 30rpx;
+	width: 90rpx;
+	display: inline-block;
+	margin-left: 10rpx;
+	padding-left: 32rpx;
+}
+.boxitem{
+	height: 80vh;
+}
+#pop {
+	position: fixed;
+	z-index: 99;
+}
+#pop .button{
+	background-color: #ffe60f;
+	/* width:80%; */
+	text-align: center;
+	height: 70rpx;
+	line-height: 70rpx;
+	margin-top: 180rpx;
+	margin-left: 10%;
+	font-size: 30rpx;
+	border-radius: 30rpx;
+	
+}
+#pop #tiaozheng{
+	position: absolute;
+	height: 8px;
+	top:100rpx;
+	left:160rpx;
+
+}
+#pop image{
+	float: left;
+	background-color: #0AB906;
+	width: 120rpx;
+	height: 120rpx;
+}
+#pop .text{
+	position: relative;
+	float: left;
+	width: 50vw;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+}
+#pop .text .yuanjia{
+	margin-right: 50rpx;
+}
+#pop .text .price{
+	color: #f52125;
+}
+#pop input{
+	position: absolute;
+	left:120rpx;
+	top: -10rpx;
+	border-bottom:  1rpx rgb(130,130,130) solid;
+	font-size: 35rpx;
+	font-weight: 600;
+	
+}
+#xiajiapop .item .gunali{
+	position: relative;
+}
+#xiajiapop .item .title{
+	height: 85rpx;
+	width: 80%;
+	font-size: 30rpx;
+     display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+}
+#xiajiapop .item .shangjia{
+	display: inline-block;
+	padding-left: 15rpx;
+	width: 120rpx;
+	height: 50rpx;
+	border: 2rpx rgb(130,130,130) solid;
+	margin-left: 350rpx;
+	font-size:23rpx;
+	line-height:50rpx ;
+}

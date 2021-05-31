@@ -1,0 +1,12 @@
+{
+    "id": "QuShe-SharerPoster",
+    "name": "QS-SharePoster",
+    "version": "3.1.6",
+    "description": "实用的自定义海报生成器",
+    "keywords": [
+        "分享海报",
+        "自定义海报",
+        "canvas",
+        "json绘制"
+    ]
+}
